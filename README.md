@@ -23,7 +23,8 @@ $ gem install swagger_ui_engine
 
 Then mount `SwaggerUiEngine::Engine`
 
-```ruby:config/routes.rb
+```ruby
+# config/routes.rb
 Rails.application.routes.draw do
   mount SwaggerUiEngine::Engine => "/swagger_ui_engine"
   # ...
@@ -36,7 +37,8 @@ end
 
 ### Specify swagger ui dist version & document file path
 
-```ruby:config/initializers/swagger_ui_engine.rb
+```ruby
+# config/initializers/swagger_ui_engine.rb
 SwaggerUiEngine.configure do |config|
   config.swagger_ui_version = "3.25.0" // default is `nil` to use latest version.
   config.openapi_file_path = Rails.root.join("docs/openapi.yaml")
