@@ -7,3 +7,4 @@ dummy/db/*.sqlite3-*
 dummy/log/*.log
 dummy/storage/
 dummy/tmp/
+.envrc

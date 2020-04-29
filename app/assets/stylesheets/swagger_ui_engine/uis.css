@@ -1,0 +1,23 @@
+/*
+  Place all the styles related to the matching controller here.
+  They will automatically be included in application.css.
+*/
+html
+  {
+  box-sizing: border-box;
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+}
+
+*,
+  *:before,
+  *:after
+    {
+    box-sizing: inherit;
+  }
+
+  body
+    {
+    margin:0;
+    background: #fafafa;
+  }
